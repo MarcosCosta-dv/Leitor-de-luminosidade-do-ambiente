@@ -32,10 +32,3 @@ O código realiza as seguintes operações:
 2. Carregue o código para a placa Arduino.
 3. Abra o monitor serial para visualizar as mensagens de saída e monitorar o comportamento do sistema.
 
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues relatando problemas ou propor melhorias. Pull requests também são aceitos.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
