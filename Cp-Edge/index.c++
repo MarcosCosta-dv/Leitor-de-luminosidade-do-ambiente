@@ -32,7 +32,9 @@ void loop() {
     digitalWrite(greenPin, LOW);    // Desliga o LED verde
     digitalWrite(redPin, LOW);      // Desliga o LED vermelho
     digitalWrite(yellowPin, HIGH);  // Acende o LED amarelo
-    noTone(buzzerPin);    // Desliga o buzzer (se estiver tocando)
+    tone(buzzerPin,1000);    // Liga o buzzer com frequência de 261 Hz
+    delay(3000);
+    noTone(buzzerPin);
     Serial.println("Atencao luminosidade em nivel medio, sua safra corre riscos");
   } else {    // Se a luz for maior que 89
     digitalWrite(greenPin, LOW);    // Desliga o LED verde
