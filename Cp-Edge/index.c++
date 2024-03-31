@@ -32,8 +32,35 @@ void loop() {
     digitalWrite(greenPin, LOW);    // Desliga o LED verde
     digitalWrite(redPin, LOW);      // Desliga o LED vermelho
     digitalWrite(yellowPin, HIGH);  // Acende o LED amarelo
-    tone(buzzerPin,1000);    // Liga o buzzer com frequência de 261 Hz
-    delay(3000);
+    tone(buzzerPin,261);    // Liga o buzzer com frequência de 261 Hz
+    delay(300);
+    noTone(buzzerPin);   
+    tone(buzzerPin,293);             
+    delay(300);    
+    noTone(buzzerPin);
+    tone(buzzerPin,261);    
+    delay(300);
+    noTone(buzzerPin);   
+    tone(buzzerPin,293);             
+    delay(300);    
+    noTone(buzzerPin);
+    tone(buzzerPin,261);    
+    delay(300);
+    noTone(buzzerPin);   
+    tone(buzzerPin,293);             
+    delay(300);    
+    noTone(buzzerPin);
+    tone(buzzerPin,261);    
+    delay(300);
+    noTone(buzzerPin);   
+    tone(buzzerPin,293);             
+    delay(300);    
+    noTone(buzzerPin);
+    tone(buzzerPin,261);    
+    delay(300);
+    noTone(buzzerPin);   
+    tone(buzzerPin,293);             
+    delay(300);    
     noTone(buzzerPin);
     Serial.println("Atencao luminosidade em nivel medio, sua safra corre riscos");
   } else {    // Se a luz for maior que 89
